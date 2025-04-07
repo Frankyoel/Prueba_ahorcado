@@ -3,10 +3,9 @@ import random
 def seleccionar_palabra(nivel):
     palabras = {
         #Se cambiaron algunas palabras del juego
-
-        "facil": ["am", "diego", "nefi", "franky"],
-        "medio": ["polo", "vaca", "vecino", "hora"],
-        "dificil": ["inteligencia", "artificial", "algoritmo", "otorrinalaringologo"]
+        "facil": ["python", "Sala", "Laptop", "Horas", "Corre"],
+        "medio": ["polo", "vaca", "vecino", "codigo"],
+        "dificil": ["inteligencia", "artificial", "algoritmo", "complejidad"]
     }
     return random.choice(palabras[nivel])
 
@@ -89,7 +88,7 @@ def dibujar_ahorcado(intentos_restantes):
 
 def jugar():
     nivel = input("Selecciona un nivel (fácil, medio, difícil): ").lower()
-    if nivel not in ["facil", "medio", "dificil", "Extremo"]:
+    if nivel not in ["facil", "medio", "dificil", ]:
         print("Nivel no válido. Seleccionando nivel fácil por defecto.")
         nivel = "facil"
     
