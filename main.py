@@ -87,7 +87,7 @@ def dibujar_ahorcado(intentos_restantes):
     print(partes_ahorcado[6 - intentos_restantes])
 
 def jugar():
-    nivel = input("Selecciona un nivel (fácil, medio, difícil, Peru): ").lower()
+    nivel = input("Selecciona un nivel (fácil, medio, difícil): ").lower()
     if nivel not in ["facil", "medio", "dificil", ]:
         print("Nivel no válido. Seleccionando nivel fácil por defecto.")
         nivel = "facil"
