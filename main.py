@@ -5,7 +5,7 @@ def seleccionar_palabra(nivel):
         #Se cambiaron algunas palabras del juego      
         "facil": ["pollo", "toro", "todo", "oceano"],
         "medio": ["caballo", "brujula", "vecina", "lapiz"],
-        "inicio": ["persistencia", "artificial", "integridad", "complejidad", "otorino"]
+        "inicio": ["persistencia", "artificial", "integridad", "complejidad", "telescopio"]
     }
     return random.choice(palabras[nivel])
 
