@@ -3,9 +3,9 @@ import random
 def seleccionar_palabra(nivel):
     palabras = {
         #Se cambiaron algunas palabras del juego      
-        "facil": ["pollo", "toro", "todo", "codigo"],
-        "medio": ["caballo", "compas", "vecina", "lapicero"],
-        "inicio": ["persistencia", "artificial", "integridad", "complejidad", "otorinolaringologo"]
+        "facil": ["pollo", "toro", "todo", "oceano"],
+        "medio": ["caballo", "brujula", "vecina", "lapiz"],
+        "inicio": ["persistencia", "artificial", "integridad", "complejidad", "otorino"]
     }
     return random.choice(palabras[nivel])
 
